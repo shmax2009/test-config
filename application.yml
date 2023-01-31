@@ -1,0 +1,7 @@
+spring:
+  api-router:
+    apis:
+      - version: v1
+        routes:
+          - url: test-service
+            service-name: TEST-SERVICE
